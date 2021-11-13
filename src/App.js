@@ -4,8 +4,8 @@ import { Routes, Route } from 'react-router-dom';
 
 import './App.css';
 
-import HomePage from './pages/HomePage/HomePage.component';
-import ShopPage from './pages/shop/Shop.component';
+import HomePage from './pages/home-page/home-page.component';
+import ShopPage from './pages/shop/shop.component';
 import Header from './components/header/header.component';
 
 function App() {

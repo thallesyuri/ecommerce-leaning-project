@@ -1,5 +1,5 @@
 import React from 'react';
-import './MenuItem.styles.scss';
+import './menu-item.styles.scss';
 import { useNavigate } from 'react-router';
 
 //Importing the access to router control inside this component
