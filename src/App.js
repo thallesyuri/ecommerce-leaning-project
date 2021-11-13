@@ -5,14 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import HomePage from './pages/HomePage/HomePage.component';
-
-const HatsPage = () => {
-    return (
-        <div>
-            <h1>HATS PAGE</h1>
-        </div>
-    );
-};
+import ShopPage from './pages/shop/Shop.component';
 
 function App() {
     return (
@@ -22,7 +15,7 @@ function App() {
         <div>
             <Routes>
                 <Route exact path="/" element={<HomePage />} />
-                <Route path="/shop/hats" element={<HatsPage />} />
+                <Route path="/shop" element={<ShopPage />} />
             </Routes>
         </div>
     );
